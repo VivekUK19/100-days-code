@@ -23,16 +23,18 @@ int main() {
     int n, i, target;
     int low, high, mid;
     int index = -1;
+    printf("Enter the no of elements of the array:");
     scanf("%d", &n);
 
     int arr[n]; 
-
+    printf("Enter the elements of the array:");
     // Read elements into the array
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
     // Read the element to search for
+    printf("Enter the target:");
     scanf("%d", &target);
 
     // Binary search logic
@@ -61,4 +63,5 @@ int main() {
 
     return 0;
 }
+
 
